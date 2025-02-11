@@ -29,3 +29,22 @@ if (mode === "dark") {
     color = "white";
 }
 console.log('Color: ',color);
+
+// else if statement
+
+age2 = 70;
+
+if (age2 >= 18){
+    console.log("You can VOTE");
+}else if(age2 <= 60){
+    console.log("You can't VOTE");
+}else{
+    console.log("You can't VOTE");
+}
+
+//ternary operator
+
+let age3 = 18;
+
+let result = age3 >= 18 ? "You are an adult" : "You are a child";
+console.log(result);
