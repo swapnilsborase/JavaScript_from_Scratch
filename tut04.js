@@ -1,3 +1,5 @@
+//Tutorial 4 - Operators in JavaScript
+
 //comments in javascript
 //this is a single line comment
 /* this is multiline comment syntax */
@@ -67,3 +69,27 @@ console.log('P != Q: ',p != q); //not equal to
 console.log('P == R: ',p == r); //converting to same type
 console.log('P === R: ',p === r); //strict equality and does not convert to same type
 console.log('P !== R: ',p !== r); //strict inequality and does not convert to same type 
+
+//Logical Operators
+
+//this operator gives true or false as output
+
+let condition1 = p<q;
+let condition2 = p===r;
+
+console.log('Condition1: ',condition1);
+console.log('Condition2: ',condition2);
+console.log('Condition1 && Condition2: ',condition1 && condition2); //AND operator
+console.log('Condition1 || Condition2: ',condition1 || condition2); //OR operator
+console.log('!Condition1: ',!condition1); //NOT operator and change the value if true then false and vice versa.
+
+/*This is simple explanation for Logical Operators
+**And, OR Operator**
+
+cond1 cond2  &&   ||
+  t     t    t    t
+  t     f    f    t
+  f     t    f    t
+  f     f    f    f
+
+*/
